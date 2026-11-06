@@ -1,3 +1,4 @@
+#IT-12
 # -*- coding: utf-8 -*-
 """2502110068( lab 4).ipynb
 
@@ -12,7 +13,7 @@ import random
 for i in range(10):
     diameter = round(random.uniform(24.90, 25.10), 2)
     print(f"Part {i+1} Diameter: {diameter} mm")
-
+#IT-10
 import random
 
 # Counters
@@ -43,7 +44,7 @@ print(f"ACCEPT: {accept_count}")
 print(f"REWORK: {rework_count}")
 print(f"SCRAP:  {scrap_count}")
 print(f"TOTAL:  {accept_count + rework_count + scrap_count}")
-
+#IT-8
 import random
 
 mode = (
@@ -78,7 +79,7 @@ for i in range(100):
     print(f"Part {inspected_count}: {diameter} mm -> {bin_category}")
 
 print(f"\nTotal parts inspected before stop/end: {inspected_count}")
-
+#IT-6
 import random
 
 consecutive_accepts = 0
